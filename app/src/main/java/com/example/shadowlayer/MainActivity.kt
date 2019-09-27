@@ -38,11 +38,10 @@ class MainActivity : AppCompatActivity() {
         val shadow = Shadow()
         shadow.alpha = 0.9f
         shadow.radius = 20
-        shadow.color = "#33ff003f"
-        //        shadow.setColor("#64424242");
-        //        shadow.setColor("#96424242");
+        shadow.color = "#ff003f"
+//        shadow.color = "#424242";//for test
         shadow.x = 0
-        shadow.y = 10
+        shadow.y = 20
         button1.setTag(R.id.shadow, shadow)
         shadowLayout.addView(button1)
     }
